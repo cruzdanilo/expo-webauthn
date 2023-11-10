@@ -1,0 +1,31 @@
+{
+  "name": "expo-webauthn",
+  "version": "0.1.0",
+  "license": "AGPL-3.0",
+  "description": "webauthn polyfill for expo",
+  "author": "danilo neves cruz <cruzdanilo@gmail.com>",
+  "repository": "https://github.com/cruzdanilo/expo-webauthn",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly"
+  },
+  "dependencies": {
+    "expo-modules-core": "^1.5.11"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "expo-module-scripts": "^3.1.0",
+    "prettier": "^3.0.3"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts"
+}
