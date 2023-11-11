@@ -6,5 +6,9 @@ import expo.modules.kotlin.modules.ModuleDefinition
 class ExpoWebauthn : Module() {
   override fun definition() = ModuleDefinition {
     Name("ExpoWebauthn")
+
+    Function("hello") {
+      "Hello world! 👋"
+    }
   }
 }

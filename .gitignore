@@ -1,7 +1,7 @@
 node_modules/
 .expo/
 build/
-dist/
+# dist/
 *.orig.*
 *.jks
 *.p8
@@ -15,6 +15,5 @@ dist/
 .env*.local
 .*-version*
 *.tsbuildinfo
-expo-env.d.ts
 .metro-health-check*
 .DS_Store

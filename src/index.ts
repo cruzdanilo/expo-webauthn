@@ -1,5 +1,7 @@
 import ExpoWebauthn from "./ExpoWebauthn";
 
+console.log("expo-webauthn", ExpoWebauthn);
+
 // @ts-expect-error -- polyfill
 global.navigator.credentials ??= {
   get(options) {

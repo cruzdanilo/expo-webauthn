@@ -13,13 +13,16 @@
     "prepare": "expo-module prepare",
     "prepublishOnly": "expo-module prepublishOnly"
   },
+  "workspaces": [
+    "example"
+  ],
   "dependencies": {
     "expo-modules-core": "^1.5.11"
   },
   "devDependencies": {
-    "@types/react": "^18.2.37",
     "expo-module-scripts": "^3.1.0",
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
   },
   "peerDependencies": {
     "expo": "*",
