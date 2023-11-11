@@ -1,1 +1,1 @@
-{"version":3,"file":"ExpoWebauthn.web.js","sourceRoot":"","sources":["../src/ExpoWebauthn.web.ts"],"names":[],"mappings":"AAAA,eAAe,SAAS,CAAC,WAAW,CAAC","sourcesContent":["export default navigator.credentials;\n"]}
+{"version":3,"file":"ExpoWebauthn.web.js","sourceRoot":"","sources":["../src/ExpoWebauthn.web.ts"],"names":[],"mappings":"AAAA,eAAe,IAAI,CAAC","sourcesContent":["export default null;\n"]}

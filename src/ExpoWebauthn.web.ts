@@ -1,1 +1,1 @@
-export default navigator.credentials;
+export default null;
